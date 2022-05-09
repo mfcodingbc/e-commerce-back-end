@@ -4,7 +4,7 @@ Create, update, access, and delete data from a development database
 
 ## Description
 
-This back-end application allows one to connect to a database and seed said database with test data. After the database is set up, you can then access the data within and create, update, or delete the data in the database.
+This back-end application allows you to connect to a database and seed said database with test data. After the database is set up, you can then access the data within and create, update, or delete the data in the database.
 
 ## Installation
 
@@ -27,7 +27,7 @@ In Insomnia, you can make GET, POST, PUT, and DELETE requests to these routes:
 
 For further info on the requests that can be made, check out the following walkthrough video:
 
-[E-commerce Back End App Walkthrough](link to video here)
+[E-commerce Back End App Walkthrough](https://youtu.be/bBQGlEXVDF4)
 
 ## Technologies Used
 
