@@ -18,7 +18,7 @@ After cloning the code from the GitHub repository, install the necessary npm lib
 `DB_PW='your_password'`  
 (The database name can be pulled from the `schema.sql` file found in the `db` folder)
 
-Once this file has been created, you will then need to create the database by typing `'source db/schema.sql'` in the command-line (from the root directory of the application). After the database has been created, type `'npm run seed'` to seed the database with the test data. The console log will notify you that the database has been successfully seeded, after which you will type `'npm start'` to be able to access the database in Insomnia (or other app where you will make the api calls).
+Once this file has been created, you will then need to create the database by logging into your mysql (from the root directory of the application) then typing `'source db/schema.sql'` in the command-line. After the database has been created, leave mysql and type `'npm run seed'` into the command line to seed the database with the test data. The console log will notify you that the database has been successfully seeded, after which you will type `'npm start'` to be able to access the database in Insomnia (or other app where you will make the api calls).
 
 In Insomnia, you can make GET, POST, PUT, and DELETE requests to these routes:  
 `'api/categories'`  
