@@ -12,7 +12,7 @@ Clone the code from the [GitHub repository](https://github.com/mfcodingbc/e-comm
 
 ## Usage
 
-After cloning the code from the GitHub repository, you will need to enter your `mysql` info in a `.env` file on the main directory as the following:  
+After cloning the code from the GitHub repository, install the necessary npm libraries with the command `'npm install'` Also, you will need to enter your `mysql` info in a `.env` file on the main directory as the following:  
 `DB_NAME='database_name'`  
 `DB_USER='your_username'`  
 `DB_PW='your_password'`  
